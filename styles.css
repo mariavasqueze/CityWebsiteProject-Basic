@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+/* Weights = 100, 300, 500, 700*/
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+img {
+    width: 100%;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: #FFF;
+
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    color: #0094BE;
+}
+.right {
+    position: absolute;
+    top: 45px;
+    right: 80px;
+}
+.left {
+    position: absolute;
+    top: 45px;
+    left: 80px;
+}
+
+.main-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+.explore {
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 12px;
+    padding: 10px 25px;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+}
+.explore:hover {
+    border-color: #0094BE;
+}
+/* What are you looking for section */
+h2 {
+    text-align: center;
+    padding: 80px 0px 60px 0px;
+    color: #003A50;
+    font-size: 30px;
+}
+h3 {
+    color: rgba(113, 106, 118, 1);
+    font-size: 28px;
+    margin: 40px 0px;
+}
+.pages-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#option-box {
+    width: 350px;
+    height: 459px;
+    border: 3px solid #008DB5;
+    border-radius: 12px;
+    margin: 10px 20px;
+    padding: 12px 10px 0px 10px;
+    text-align: center;
+}
+#image-box {
+    border-radius: 12px;
+    display: flex;
+    margin: 20px 0px;
+}
+#learn-more {
+    font-size: 20px;
+    background-color: #008DB5;
+    border-radius: 12px;
+    padding: 12px 22px;
+}
+
