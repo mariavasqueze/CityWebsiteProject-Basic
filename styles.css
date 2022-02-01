@@ -122,6 +122,9 @@ span {
     font-size: 12px;
     font-weight: 100;
 }
+.footer-other-pages {
+    padding-top: 0px;
+}
 
 /* Art & Culture page */
 .wrapper {
@@ -177,9 +180,36 @@ h4 {
 }
 
 /* News & Events */
-.footer-other-pages {
-    padding-top: 0px;
+figure {
+    margin: 0px;
+}
+figcaption {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+ul {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+dl {
+    color: #FFF;
+    line-height: 25px;
+}
+dt {
+    margin-top: 15px;
+}
+dd {
+    font-weight: 100;
 }
 
 
 /*  Recreation */
+blockquote {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+}
