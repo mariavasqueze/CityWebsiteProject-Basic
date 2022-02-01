@@ -78,7 +78,7 @@ p {
     justify-content: center;
     
 }
-#option-box {
+.option-box {
     width: 350px;
     height: 459px;
     border: 3px solid #008DB5;
@@ -87,18 +87,18 @@ p {
     padding: 12px 10px 0px 10px;
     text-align: center;
 }
-#image-box {
+.image-box {
     border-radius: 12px;
     margin: 20px 0px;
     max-height: 230px;
 }
-#learn-more {
+.learn-more {
     font-size: 20px;
     background-color: #008DB5;
     border-radius: 12px;
     padding: 12px 22px;
 }
-#learn-more:hover {
+.learn-more:hover {
     color: #FFF;
     background-color: #003A50;
 }
@@ -149,12 +149,12 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    margin: 0px;
 }
-#horizontal-box {
+.horizontal-box {
     background-color: #044862;
     border-radius: 12px;
-    margin: 40px 140px;
+    margin: 40px 90px;
     padding: 50px 40px 40px;
     min-width: 350px;
 }
@@ -165,7 +165,7 @@ h4 {
     color: rgba(90, 203, 229, 1);
     font-size: 24px;
 }
-#vertical-box {
+.vertical-box {
     background-color: #044862;
     border-radius: 12px;
     min-width: 150px;
@@ -175,7 +175,7 @@ h4 {
     padding: 50px 40px 40px;
 }
 .small-image-blue-box {
-    max-height: 363px;
+    height: 350px;
     border-radius: 12px;
 }
 
@@ -198,6 +198,7 @@ ul {
 dl {
     color: #FFF;
     line-height: 25px;
+    font-size: 16px;
 }
 dt {
     margin-top: 15px;
